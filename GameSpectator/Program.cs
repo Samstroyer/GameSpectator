@@ -2,7 +2,7 @@
 using RestSharp;
 using Raylib_cs;
 
-RestClient client = new RestClient("http://2.249.166.70:3000");
+RestClient client = new RestClient("http://10.156.8.147:3000");
 RestRequest getPaul = new("Paul/Get", Method.Get);
 RestRequest getSamuel = new("Samuel/Get", Method.Get);
 
